@@ -1,0 +1,8 @@
+
+*
+!.gitignore
+!README.md
+!BepInEx/
+!BepInEx/**
+!doorstop_config.ini
+!winhttp.dll
