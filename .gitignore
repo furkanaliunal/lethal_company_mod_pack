@@ -1,5 +1,6 @@
 
 *
+*.log
 !.gitignore
 !README.md
 !BepInEx/
