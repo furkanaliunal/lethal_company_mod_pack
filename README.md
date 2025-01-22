@@ -22,7 +22,7 @@ To install and run the mods for **Lethal Company**, follow these steps:
    - This will open the game's installation directory on your computer.
 
 2. **Place the Mod Files:**
-   - In the game folder, copy the `furkis_modpack.bat` file from the releases section of this repository into the game’s root directory.
+   - In the game folder, copy the `mod_manager.bat`[(click here to download)](https://github.com/furkanaliunal/Lethal-Company-Modloader/releases/download/Release-2.0/mod_manager.bat) file from the releases section of this repository into the game’s root directory.
 
 3. **Run the `.bat` File:**
    - Double-click on the `.bat` file to run it. This will automatically configure the mod and set it up for use with your game. (On the first run, the script may download additional software, such as Git, if needed for the installation.)
