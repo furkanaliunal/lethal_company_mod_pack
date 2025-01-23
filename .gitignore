@@ -10,3 +10,4 @@
 BepInEx/LogOutput.log
 BepInEx/cache/
 BepInEx/cache/**
+BepInEx/plugins/3rdPerson.dll
