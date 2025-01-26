@@ -1,5 +1,6 @@
 @echo off
 @title FurkisPack Manager
+setlocal enabledelayedexpansion
 
 :mainmenu
 cls
@@ -21,10 +22,35 @@ echo Invalid choice! Please try again.
 pause
 goto mainmenu
 
+:find_path
+rem Kayıt defterinden Lethal Company'nin dizinini bul
+set "target=HKEY_CURRENT_USER\System\GameConfigStore\Children"
+set "searchValue=Lethal Company"
+set "gameDir="
+
+for /f "tokens=*" %%A in ('reg query "%target%"') do (
+    for /f "tokens=*" %%B in ('reg query "%%A" /v ExeParentDirectory 2^>nul ^| find /i "%searchValue%"') do (
+        for /f "tokens=2*" %%C in ('reg query "%%A" /v MatchedExeFullPath 2^>nul ^| find "MatchedExeFullPath"') do (
+            set "fullPath=%%D"
+            for %%E in ("!fullPath!") do set "gameDir=%%~dpE"
+        )
+    )
+)
+
+if "%gameDir%"=="" (
+    echo Failed to locate Lethal Company directory. Exiting...
+    pause
+    goto mainmenu
+)
+
+echo Found game directory: %gameDir%
+goto :eof
+
 :install
 @title Installing FurkisPack
-echo Installing Git...
+call :find_path
 
+echo Installing Git...
 winget install --id Git.Git -e --source winget
 
 if exist "C:\Program Files\Git\bin\git.exe" (
@@ -39,14 +65,17 @@ if exist "C:\Program Files\Git\bin\git.exe" (
 
 @title Completed!
 echo Installation completed!
-pause
-goto mainmenu
 
 :update
 @title Updating FurkisPack
+
+if "%gameDir%"=="" (
+    call :find_path
+)
+
 echo Updating FurkisPack...
 
-REM Check if Git exists in PATH
+rem Check if Git exists in PATH
 where git >nul 2>&1
 if %errorlevel% neq 0 (
     echo.
@@ -55,6 +84,9 @@ if %errorlevel% neq 0 (
     pause
     goto mainmenu
 )
+
+rem Git işlemleri oyun dizininde yapılacak
+cd /d "%gameDir%"
 
 if not exist ".git" (
     echo .git folder not found. Initializing repository...
@@ -65,7 +97,14 @@ if not exist ".git" (
 echo Fetching updates...
 git fetch origin
 git reset --hard origin/main
-git clean -fd
+
+if exist ".gitignore" (
+    git clean -fd
+) else (
+    echo Fetching failed somehow. Ask for support. Exiting...
+    pause
+    goto mainmenu
+)
 
 @title Update Completed!
 echo Update process completed!
@@ -74,7 +113,10 @@ goto mainmenu
 
 :clear
 @title Clearing FurkisPack Mod
+call :find_path
+
 echo Switching to no-mod branch...
+cd /d "%gameDir%"
 git reset --hard origin/no-mod
 
 @title Completed!
