@@ -16,3 +16,5 @@ BepInEx/plugins/3rdPerson.dll
 
 BepInEx/plugins/suits_moresuits/
 BepInEx/plugins/suits_moresuits/**
+BepInEx/plugins/emotes_LethalEmotesApi/
+BepInEx/plugins/emotes_LethalEmotesApi/**
