@@ -13,3 +13,6 @@ BepInEx/cache/**
 BepInEx/plugins/3rdPerson.dll
 
 !external_mods.txt
+
+BepInEx/plugins/suits_moresuits/
+BepInEx/plugins/suits_moresuits/**
