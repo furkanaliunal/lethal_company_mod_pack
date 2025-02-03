@@ -1,5 +1,5 @@
-emotes_BadAssCompany=1.3.1=https://gcdn.thunderstore.io/live/repository/packages/Gemumoddo-BadAssCompany-1.3.1.zip
-emotes_Ultimate_Emotes=1.1.1=https://gcdn.thunderstore.io/live/repository/packages/The_Smiler-Ultimate_Emotes-1.1.1.zip
-emotes_Splatoon_Emote_Pack=1.0.2=https://gcdn.thunderstore.io/live/repository/packages/Segtendo-Splatoon_Emote_Pack-1.0.2.zip
-suits_moresuits=1.0.0=https://www.dropbox.com/scl/fi/4ijwxjfnzxw3kka3wk8iu/moresuits.zip?rlkey=utli561jj7h3k7r4z2unkrate&st=45usrk5g&dl=1
-emotes_LethalEmotesApi=1.15.10=https://gcdn.thunderstore.io/live/repository/packages/Gemumoddo-LethalEmotesAPI-1.15.10.zip
+emotes_BadAssCompany;1.3.1;https://gcdn.thunderstore.io/live/repository/packages/Gemumoddo-BadAssCompany-1.3.1.zip
+emotes_Ultimate_Emotes;1.1.1;https://gcdn.thunderstore.io/live/repository/packages/The_Smiler-Ultimate_Emotes-1.1.1.zip
+emotes_Splatoon_Emote_Pack;1.0.2;https://gcdn.thunderstore.io/live/repository/packages/Segtendo-Splatoon_Emote_Pack-1.0.2.zip
+suits_moresuits;1.0.0;https://www.dropbox.com/scl/fi/4ijwxjfnzxw3kka3wk8iu/moresuits.zip?rlkey=utli561jj7h3k7r4z2unkrate&st=45usrk5g&dl=1
+emotes_LethalEmotesApi;1.15.10;https://gcdn.thunderstore.io/live/repository/packages/Gemumoddo-LethalEmotesAPI-1.15.10.zip
