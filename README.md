@@ -1,3 +1,12 @@
+<div align="center">
+
+![](https://raw.githubusercontent.com/furkanaliunal/Lethal-Company-Modloader/main/logo.ico)
+
+</div>
+<br>
+
+
+
 # Lethal Company Modpack
 
 ## 📄 **Description**
