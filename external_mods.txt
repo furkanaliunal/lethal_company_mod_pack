@@ -6,7 +6,7 @@ emotes_LethalEmotesApi;1.15.10;https://gcdn.thunderstore.io/live/repository/pack
 wider_ship;1.3.12;https://gcdn.thunderstore.io/live/repository/packages/mborsh-Wider_Ship_Mod-1.3.12.zip
 matty_fixes;1.1.33;https://gcdn.thunderstore.io/live/repository/packages/mattymatty-Matty_Fixes-1.1.33.zip
 vertex_library;1.1.0;https://gcdn.thunderstore.io/live/repository/packages/LethalCompanyModding-VertexLibrary-1.1.0.zip
-ship_lobby;1.0.2;https://gcdn.thunderstore.io/live/repository/packages/tinyhoot-ShipLobby-1.0.2.zip
+late_company;1.0.18;https://gcdn.thunderstore.io/live/repository/packages/anormaltwig-LateCompany-1.0.18.zip
 ship_windows;1.11.0;https://gcdn.thunderstore.io/live/repository/packages/TestAccount666-ShipWindows-1.11.0.zip
 celestial_tint;1.5.2;https://gcdn.thunderstore.io/live/repository/packages/sfDesat-Celestial_Tint-1.5.2.zip
 story_2_ship;1.1.0;https://gcdn.thunderstore.io/live/repository/packages/MelanieMelicious-MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod-1.1.0.zip
