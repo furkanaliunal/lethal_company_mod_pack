@@ -11,3 +11,5 @@ ship_windows;1.11.0;https://gcdn.thunderstore.io/live/repository/packages/TestAc
 celestial_tint;1.5.2;https://gcdn.thunderstore.io/live/repository/packages/sfDesat-Celestial_Tint-1.5.2.zip
 story_2_ship;1.1.0;https://gcdn.thunderstore.io/live/repository/packages/MelanieMelicious-MelanieMelicious_2_sToRy_ShIp__works_w_Wider_Ship_Mod-1.1.0.zip
 moved_magnet_switch;1.4.0;https://gcdn.thunderstore.io/live/repository/packages/AtomicStudio-Moved_Magnet_Switch-1.4.0.zip
+toybox_little_company;1.3.19;https://gcdn.thunderstore.io/live/repository/packages/Toybox-LittleCompany-1.3.19.zip
+evaisa_lethallib;0.16.2;https://gcdn.thunderstore.io/live/repository/packages/Evaisa-LethalLib-0.16.2.zip
