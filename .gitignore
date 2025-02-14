@@ -11,6 +11,8 @@ BepInEx/LogOutput.log
 BepInEx/cache/
 BepInEx/cache/**
 BepInEx/plugins/3rdPerson.dll
+BepInEx/plugins/ControlCompany.dll
+BepInEx/plugins/ControlCompanyFilter.dll
 
 !external_mods.txt
 
