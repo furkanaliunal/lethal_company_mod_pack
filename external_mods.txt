@@ -14,3 +14,6 @@ moved_magnet_switch;1.4.0;https://gcdn.thunderstore.io/live/repository/packages/
 toybox_little_company;1.3.19;https://gcdn.thunderstore.io/live/repository/packages/Toybox-LittleCompany-1.3.19.zip
 evaisa_lethallib;0.16.2;https://gcdn.thunderstore.io/live/repository/packages/Evaisa-LethalLib-0.16.2.zip
 more_company;1.11.0;https://gcdn.thunderstore.io/live/repository/packages/notnotnotswipez-MoreCompany-1.11.0.zip
+more_head;1.2.6;https://gcdn.thunderstore.io/live/repository/packages/Mhz-MoreHead-1.2.6.zip
+nice_chat;1.2.7;https://gcdn.thunderstore.io/live/repository/packages/taffyko-NiceChat-1.2.7.zip
+chat_commands;2.0.0;https://gcdn.thunderstore.io/live/repository/packages/CTMods-ChatCommands-2.0.0.zip
