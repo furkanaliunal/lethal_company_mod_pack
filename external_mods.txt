@@ -15,3 +15,4 @@ more_company;1.11.0;https://gcdn.thunderstore.io/live/repository/packages/notnot
 more_head;1.2.6;https://gcdn.thunderstore.io/live/repository/packages/Mhz-MoreHead-1.2.6.zip
 nice_chat;1.2.7;https://gcdn.thunderstore.io/live/repository/packages/taffyko-NiceChat-1.2.7.zip
 chat_commands;2.0.0;https://gcdn.thunderstore.io/live/repository/packages/CTMods-ChatCommands-2.0.0.zip
+utility_furniture_path;0.4.2;https://gcdn.thunderstore.io/live/repository/packages/MelanieMelicious-MelanieMelicious_Utility_Furniture_Pack-0.4.2.zip
